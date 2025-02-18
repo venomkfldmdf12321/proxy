@@ -1,19 +1,16 @@
 {
-  "name": "electron-proxy",
+  "name": "express-proxy",
   "version": "1.0.0",
-  "description": "Electron proxy to render Gadgets360 page",
-  "main": "main.js",
+  "description": "Proxy server to render Gadgets360 page",
+  "main": "server.js",
   "scripts": {
-    "start": "electron ."
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^1.7.9",
     "cors": "^2.8.5",
     "express": "^4.21.2",
-    "http-proxy-middleware": "^3.0.3",
-    "puppeteer": "^24.2.1"
+    "http-proxy-middleware": "^3.0.3"
   },
-  "devDependencies": {
-    "electron": "^34.2.0"
-  }
+  "devDependencies": {}
 }

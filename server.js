@@ -6,6 +6,10 @@ const port = 3000;
 
 app.use(cors());
 
+app.get('/', (req, res) => {
+  res.send('Lost?');
+});
+
 app.get('/proxy', async (req, res) => {
   const targetUrl = 'https://www.gadgets360.com/';
 
