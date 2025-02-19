@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/proxy', async (req, res) => {
-  const targetUrl = 'https://www.gadgets360.com/';
+  const targetUrl = 'https://www.gadgets360.com/home-appliances/air-conditioners-price-list/';
 
   try {
     const response = await axios.get(targetUrl);
